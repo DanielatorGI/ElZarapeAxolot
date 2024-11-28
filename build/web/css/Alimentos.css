@@ -1,0 +1,142 @@
+      /**********************************************************/
+/* Axolotl Technologies                                   */
+/* 26/06/2024                                             */
+/* Alfredo Israel Zuñiga Lara                             */
+/* Estilos para la gestión de alimentos en la aplicación  */
+/**********************************************************/
+
+/**********************************************************/
+/* Estilos generales del cuerpo del documento             */
+/**********************************************************/
+body {
+    font-family: Arial, sans-serif; /* Tipografía estándar para el cuerpo */
+    color: white; /* Color de texto blanco */
+    margin: 0; /* Sin margen externo */
+    padding: 0; /* Sin padding interno */
+    display: flex; /* Flexbox para alineación */
+    flex-direction: column; /* Alineación vertical de los elementos */
+    align-items: center; /* Centrado horizontal de elementos */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/**********************************************************/
+/* Estilos del título principal                           */
+/**********************************************************/
+h1 {
+    text-align: center; /* Texto centrado */
+}
+
+/**********************************************************/
+/* Estilos para elementos flotantes a la izquierda        */
+/**********************************************************/
+.izquierda {
+    float: left; /* Flota el elemento a la izquierda */
+}
+
+/**********************************************************/
+/* Estilos del contenedor blanco                          */
+/**********************************************************/
+.contenedor-blanco {
+    background-color: white; /* Color de fondo blanco */
+    width: 94%; /* Ancho del contenedor */
+    border: 1px solid #000; /* Borde opcional */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    overflow: auto; /* Asegura que el contenido adicional sea visible */
+}
+
+/**********************************************************/
+/* Estilos del encabezado                                 */
+/**********************************************************/
+.header {
+    display: flex; /* Usar Flexbox para el diseño */
+    justify-content: center; /* Centrado horizontal de los elementos */
+    width: 99%; /* Ancho del encabezado */
+    padding: 5px; /* Espaciado interno del encabezado */
+    float: left; /* Flota el encabezado a la izquierda */
+}
+
+/**********************************************************/
+/* Estilos de los botones con iconos                      */
+/**********************************************************/
+.icon-button,
+.icon-button2 {
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.icon-button img {
+    width: 20px; /* Ancho del icono */
+    height: 20px; /* Altura del icono */
+}
+
+.icon-button2 img {
+    width: 40px; /* Ancho del icono */
+    height: 40px; /* Altura del icono */
+}
+
+/**********************************************************/
+/* Estilos del contenedor de búsqueda                     */
+/**********************************************************/
+.search-container {
+    display: flex; /* Usar Flexbox para el diseño */
+    align-items: center; /* Alineación vertical centrada */
+    float: right; /* Flota el contenedor a la derecha */
+}
+
+.search-container input {
+    padding: 5px; /* Espaciado interno del input */
+    margin-right: 5px; /* Margen a la derecha del input */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde del input */
+}
+
+.search-container img {
+    width: 20px; /* Ancho del icono */
+    height: 20px; /* Altura del icono */
+}
+
+/**********************************************************/
+/* Separadores para espacios específicos                  */
+/**********************************************************/
+.separador {
+    margin-left: 450px; /* Espacio a la izquierda */
+}
+
+.separador2 {
+    margin-right: 250px; /* Espacio a la derecha */
+}
+
+/**********************************************************/
+/* Estilos de la tabla de alimentos                       */
+/**********************************************************/
+table {
+    width: 100%; /* Ancho completo de la tabla */
+    border-collapse: collapse; /* Sin espacio entre bordes de celdas */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta contenido que desborda */
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+}
+
+table, th, td {
+    border: 1px solid black; /* Bordes de la tabla */
+}
+
+th, td {
+    padding: 10px; /* Espaciado interno de celdas */
+    text-align: center; /* Texto centrado en celdas */
+}
+
+/* Establecer fondo rojo para las etiquetas th */
+th {
+    background-color: #FA4032; /* Fondo rojo para cabeceras */
+    color: white; /* Texto blanco para cabeceras */
+}
+
+/* Estilos específicos para imágenes en la tabla */
+table img {
+    width: 150px; /* Ancho aumentado para imágenes en la tabla */
+    height: auto; /* Mantener la proporción de la imagen */
+}
