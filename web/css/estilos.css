@@ -1,0 +1,44 @@
+
+.borde_redondeado {
+    border: 2px solid #FAAF08;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    border: 2px solid #FAAF08;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.card-title {
+    color: #FAAF08;
+    font-weight: bold;
+}
+
+.card-img-top {
+    max-width: 90px;
+}
+
+.iconos{
+    width: 180px;
+    height: 190px;
+}
+
+.container img {
+    max-width: 300px;
+}
+
+.animacion{
+    transition: transform 0.5s;
+}
+
+.animacion:hover{
+    transform: scale(1.1);
+}
+
+.fondo_tablas{
+    background-color: #FAAF08;
+}
