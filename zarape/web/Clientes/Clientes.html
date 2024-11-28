@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Clientes</title>
+    <link rel="stylesheet" href="css/clientes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+</head>
+<body>
+
+    <div class="header">
+        <button onclick="location.href='principal.html'" class="icon-button"><img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Home"></button>
+
+        <div class="separador"></div>
+        <h1>Gestión de Clientes</h1> 
+        <div class="separador2"></div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar en la tabla" onkeyup="searchTable()">
+            <img src="https://img.icons8.com/ios-filled/50/000000/search.png" alt="Buscar">
+        </div>
+    </div>
+
+    <div class="contenedor-blanco">
+        <table id="clientTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Foto</th>
+                    <th>Nombre</th>
+                    <th>Contraseña</th>
+                    <th>Estatus</th>
+                    <th><button onclick="openClientForm()" class="icon-button2"><img src="https://img.icons8.com/?size=100&id=BqsXFUlIH58v&format=png&color=ffffff" alt="Añadir"></button></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Las filas se agregarán aquí dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/clientes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+</html>
