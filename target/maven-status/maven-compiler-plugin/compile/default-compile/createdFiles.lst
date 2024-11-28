@@ -1,0 +1,5 @@
+Modelo\Categoria.class
+Conexion\ConexionMySQL.class
+V_Categoria.class
+Controlador\C_Categoria.class
+org\utl\dsm\rest\REST_Categoria.class

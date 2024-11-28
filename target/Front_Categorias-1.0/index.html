@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestión de Categorías</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Agrega estilos si los necesitas -->
+    </head>
+    <body>
+        <h1>Gestión de Categorías</h1>
+
+        <section>
+            <h2>Listado de Categorías</h2>
+            <button id="btnListar">Listar Categorías</button>
+            <table border="1" id="tablaCategorias">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Filas de categorías dinámicas -->
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Agregar Categoría</h2>
+            <form id="formAgregar">
+                <label for="descripcionAgregar">Descripción:</label>
+                <input type="text" id="descripcionAgregar" required>
+                <label for="tipoAgregar">Tipo:</label>
+                <input type="text" id="tipoAgregar" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Actualizar Categoría</h2>
+            <form id="formActualizar">
+                <label for="idActualizar">ID:</label>
+                <input type="number" id="idActualizar" required readonly>
+                <label for="descripcionActualizar">Descripción:</label>
+                <input type="text" id="descripcionActualizar" required>
+                <label for="tipoActualizar">Tipo:</label>
+                <input type="text" id="tipoActualizar" required>
+                <button type="submit">Actualizar</button>
+            </form>
+        </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
